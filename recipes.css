@@ -1,0 +1,203 @@
+body {
+    background-image: url("https://images.pexels.com/photos/1640774/pexels-photo-1640774.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 100%;
+}
+.recipe-display {
+    width: 600px;
+    height: 400px;
+    margin-right: 100px;
+    
+}
+#cuisineInput {
+    margin-top: 50px;
+    width: 200px;
+    color: blue;    
+}
+h6 {
+    margin-left: -243px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.input-display {
+    
+    font-size: 16px;
+    font-weight: bolder;
+    opacity: 5;
+    width: 350px;
+
+}
+.recipe-input {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQOGJCj02qrfVxkoezsgRXci8u3mMwAsLHmxi8_Ehcpk9HowWK_");
+    margin-top: 105px;
+    height: 505px;
+    padding: 25px 0px 0px 25px;     
+    width: 400px;
+    border-radius: 50px;
+}
+.recipeInfo {
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+#recipeTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 50px;
+    font-weight: bolder;
+}
+.carousel {
+
+    margin-top: 85px;
+    overflow: hidden;   
+    height: 590px;
+    width: 620px; 
+    
+}
+.carousel-item {
+   
+    
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRQVgUm3qlfI1BC2EM5Vmai6-iVo3RGHBQuuZGL4r9j8nuVxNUD");
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow: visible;
+    width: 500px;
+    height: 500px;
+    border-radius: 50px;
+    
+
+}
+.slides {
+    height: 400px;
+    width: 400px;
+}
+img {
+    border-radius: 50px;
+    margin-right: 40px;
+    margin-left: 50px;
+    margin-top: 10px;
+    transition: width 1s, height 1s;
+}
+.cuisine-type {
+    
+    font-size: 10px;
+    margin-left: 30px;
+    font-weight: bolder;
+    
+   
+}
+#cuisine-type {
+    background-color: white;
+    
+}
+
+.row {
+    margin-bottom: 0;
+    text-align: center;
+           
+}
+#favoriteRecipes {
+   
+    height: 260px;
+    width: 370px;
+    
+}
+.favoriteButtons {
+    margin-top: 6px;
+    width: 350px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.cuisine-links img:hover {
+  
+width: 70px;
+height: 70px;
+}
+@media screen and (min-width: 360px) and (max-width: 500px){
+   
+    body {
+        background-image: none;
+        background-color: teal;
+    }
+    #recipeDisplay {
+        width: 700px;
+    }
+    .recipe-input {
+        
+        margin-top: 155px;
+        height: 180px;
+        padding: 25px 0px 0px 55px;     
+        width: 485px;
+        border-radius: 50px;
+        margin-left: 120px;
+    }
+    nav .nav-wrapper {
+        width: 760px;
+        height: 55px;
+         
+    }
+    #cuisine-type {
+        width: 760px;
+    }
+    #favoriteRecipes{
+        display: none;
+    }
+    .carousel {
+        margin-top: 374px;
+        margin-right: 115px;
+        height: 590px;
+        width: 620px; 
+    }
+    #favoriteRecipesDisplay {
+        display: none;
+    }
+    .addFavorite {
+        display: none;
+    }
+    .cuisine-type{
+        display: none;
+    }    
+    
+}
+@media screen and (min-width: 501px) and (max-width: 768px){
+    body {
+        background-image: none;
+        background-color: teal;
+    }
+    nav .nav-wrapper {
+        width: 946px;
+        height: 67px;
+    }
+    #cuisine-type {
+        width: 950px;
+    }
+    .cuisine-type{
+        display: none;
+    }    
+    .recipe-input {
+        
+        margin-top: 155px;
+        height: 190px;
+        padding: 25px 0px 0px 55px;
+        width: 540px;
+        border-radius: 50px;
+        margin-left: 190px;
+    }
+    .addFavorite {
+        display: none;
+    }
+    #favoriteRecipes{
+        display: none;
+    }
+    /* #favoriteRecipesDisplay {
+        display: none;
+    } */
+    .carousel {
+        margin-top: 410px;
+        margin-right: 140px;
+        height: 590px;
+        width: 770px; 
+    }
+
+}

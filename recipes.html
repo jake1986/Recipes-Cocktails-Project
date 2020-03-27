@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    
+    <title>Create your own Recipes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../Recipes-Cocktails-Project/recipes.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+</head>
+
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <div class="nav-wrapper indigo">
+            <div class="container ">
+                <a class="brand-logo">Boteco Virtual</a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="cocktail.html">Cocktails</a></li>
+                </ul>   
+            </div>
+        </div>
+      </nav>
+        <div>
+            <!-- Row with different links to different ciusine types -->
+            <div class="row" id="cuisine-type">
+                <div class="col s1">                    
+                </div>
+            </div>
+        </div>
+        <!-- Input for the recipe search -->
+        <div class="row">
+            <div class="col s6">
+                <div class="container recipe-input">
+                <div class="row">               
+                <div class="input-field col s6">
+                    <input id="cuisineInput" class="input-display" style="background-color: white;" placeholder="Search for a Recipe here ..." type="text" >
+                    <label class="input-display"><h5 style="color : black"><strong>Looking for a specific recipe?</strong></h5></label>
+                 </div>                
+                </div> 
+                <!-- This is where the favorite recipe button will go -->
+                <div class="row" id="favoriteRecipesDisplay">
+                    <h6>Favorite Recipes :</h6>
+                </div> 
+                <div class="row" id="favoriteRecipes"></div>              
+            </div>
+        </div>   
+                <!-- This is where the carousel that displays the recipes go -->
+            <div class="col s6">
+                <div class="container recipe-display"> 
+                    <div class="carousel container right">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>        
+        </div>
+    </div>
+    </div>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../Recipes-Cocktails-Project/recipes.js"></script>
+    
+
+
+</body>
+
+</html>

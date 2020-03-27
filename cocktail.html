@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cocktails</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Noticia+Text|Spicy+Rice&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="../Recipes-Cocktails-Project/cocktail.css" type="text/css">
+</head>
+<body>
+    <div class="background-container">
+        <nav>
+            <div class="nav-wrapper indigo">
+                <div class="container ">
+                    <a class="brand-logo">Boteco Virtual</a>
+                    <ul id="nav-mobile" class="right hide-on-med-and-down">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="recipes.html">Recipes</a></li>
+                        <li><a href="cocktail.html">Cocktails</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="search-container">
+            <label class="search-label" for="">Cocktail Search</label>
+            <input id="cocktailInput" onfocus="this.value=''" type="text" value="">
+            <button id="cocktailSearch" class="waves-effect waves-light btn-small">Search</button>
+            <button id="add-fav-click" class="waves-effect waves-light btn-small">+ ADD TO FAVORITES</button><br>
+
+        </div>
+
+        <ul class="drink-history">
+
+        </ul>
+        <div class="container-drinks">
+            <h5 class="recipes">Drink Options</h5>
+
+            <h6 class="drink-hits"></h6>
+        </div>
+        <div class="images">
+
+        </div>
+    </div>
+</body>
+
+
+    
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="../Recipes-Cocktails-Project/cocktails.js"></script>
+</html>

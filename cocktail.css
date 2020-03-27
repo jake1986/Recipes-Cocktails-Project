@@ -1,0 +1,86 @@
+.search-label {
+    font-size: 20px;
+}
+
+#cocktailInput {
+    width: 20%;
+    color: white;
+    font-size: 18px;
+}
+
+.cocktail-image {
+    width: 20%;
+
+}
+
+.images {
+    margin-top: 20px;
+}
+
+.background-container {
+    background-image: url("https://images.unsplash.com/photo-1507125524815-d9d6dccda1dc?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.history-list {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+
+.container-drinks {
+    clear: both;
+}
+
+.search-container {
+    margin-top: 15px;
+    margin-left: 10px;
+    float: left;
+}
+
+.drink-container-style {
+    margin-top: 10px;
+}
+
+.container-drinks {
+    margin-top: 20px;
+}
+
+.cocktail-search {
+    cursor: pointer;
+}
+
+.drink-hits {
+    color: black;
+    font-size: 20px;
+    margin-left: 30px;
+
+}
+
+.recipes {
+    font-family: 'Noticia Text', serif;
+    margin-left: 10px;
+    padding-left: 17px;
+    padding-right: 1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 8%;
+    background: aquamarine;
+}
+
+.btn {
+    margin-top: 50px;
+}
+
+.ingredient-list {
+    display: inline-block;
+}
+
+.cocktail-style {
+    color: red;
+}
